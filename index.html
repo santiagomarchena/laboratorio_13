@@ -31,12 +31,11 @@
 
         let n1 = parseFloat(prompt("Ingrese primer número: "));
         let n2 = parseFloat(prompt("Ingrese segundo número"));
-        let operacion = prompt("Ingresa la operación: (suma, resta, multiplicacion, division)");
+        let operacion = prompt("Ingresa la operación: (suma, resta, multiplicacion, division)").toLowerCase();
         let resultado = calculadora(n1,n2,operacion);
 
-        console.log(`El resultado de su operación es ${resultado}`);
-        document.write("El resultado es: " + resultado);
-        
+        console.log(`El resultado de su operación es: ${resultado}`);
+        document.write("El resultado de su operación es: " + resultado);        
     </script>
 </body>
 </html>
